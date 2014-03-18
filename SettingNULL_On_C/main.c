@@ -10,9 +10,17 @@
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    double *myPointer;
+    
+    // the first way to setting NULL
+    //myPointer = NULL;
+    
+    // the Second way to setting NULL
+    if (myPointer){}else{}
+    
+    
+     printf("myPointer Value : %f \n",myPointer);
+    
     return 0;
 }
 
